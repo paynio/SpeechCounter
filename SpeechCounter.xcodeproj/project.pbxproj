@@ -10,6 +10,7 @@
 		F0B14CA317181A7D006305A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B14CA217181A7D006305A9 /* Foundation.framework */; };
 		F0B14CA617181A7D006305A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B14CA517181A7D006305A9 /* main.m */; };
 		F0B14CAA17181A7D006305A9 /* SpeechCounter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0B14CA917181A7D006305A9 /* SpeechCounter.1 */; };
+		F0B14CB117181D5E006305A9 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B14CB017181D5E006305A9 /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		F0B14CA517181A7D006305A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0B14CA817181A7D006305A9 /* SpeechCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeechCounter-Prefix.pch"; sourceTree = "<group>"; };
 		F0B14CA917181A7D006305A9 /* SpeechCounter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SpeechCounter.1; sourceTree = "<group>"; };
+		F0B14CB017181D5E006305A9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0B14CB117181D5E006305A9 /* AppKit.framework in Frameworks */,
 				F0B14CA317181A7D006305A9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +51,7 @@
 		F0B14C9617181A7C006305A9 = {
 			isa = PBXGroup;
 			children = (
+				F0B14CB017181D5E006305A9 /* AppKit.framework */,
 				F0B14CA417181A7D006305A9 /* SpeechCounter */,
 				F0B14CA117181A7D006305A9 /* Frameworks */,
 				F0B14CA017181A7D006305A9 /* Products */,
